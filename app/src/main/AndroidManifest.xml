@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_Week_3">
         <activity
-            android:name=".MainActivity"
+            android:name=".resultform"
+            android:exported="true" />
+        <activity
+            android:name=".registerform"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
